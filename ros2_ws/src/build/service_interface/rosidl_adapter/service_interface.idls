@@ -1,0 +1,3 @@
+/home/chenhuixu/PX4_ros2/ros2_ws/src/build/service_interface/rosidl_adapter/service_interface:srv/Takeoff.idl
+/home/chenhuixu/PX4_ros2/ros2_ws/src/build/service_interface/rosidl_adapter/service_interface:srv/Land.idl
+/home/chenhuixu/PX4_ros2/ros2_ws/src/build/service_interface/rosidl_adapter/service_interface:srv/Move.idl

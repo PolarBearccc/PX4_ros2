@@ -1,0 +1,32 @@
+[0.503s] Invoking command in '/home/chenhuixu/PX4_ros2/ros2_ws/src/px4_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/px4_control build --build-base /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/build install --record /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/install.log --single-version-externally-managed install_data
+[0.654s] running egg_info
+[0.663s] writing ../build/px4_control/px4_control.egg-info/PKG-INFO
+[0.663s] writing dependency_links to ../build/px4_control/px4_control.egg-info/dependency_links.txt
+[0.664s] writing entry points to ../build/px4_control/px4_control.egg-info/entry_points.txt
+[0.664s] writing requirements to ../build/px4_control/px4_control.egg-info/requires.txt
+[0.664s] writing top-level names to ../build/px4_control/px4_control.egg-info/top_level.txt
+[0.682s] reading manifest file '../build/px4_control/px4_control.egg-info/SOURCES.txt'
+[0.683s] writing manifest file '../build/px4_control/px4_control.egg-info/SOURCES.txt'
+[0.683s] running build
+[0.683s] running build_py
+[0.683s] copying px4_control/goto.py -> /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/build/lib/px4_control
+[0.683s] copying px4_control/land.py -> /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/build/lib/px4_control
+[0.683s] copying px4_control/takeoff.py -> /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/build/lib/px4_control
+[0.683s] running install
+[0.687s] running install_lib
+[0.696s] copying /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/build/lib/px4_control/goto.py -> /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control
+[0.696s] copying /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/build/lib/px4_control/land.py -> /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control
+[0.697s] copying /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/build/lib/px4_control/takeoff.py -> /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control
+[0.697s] byte-compiling /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control/goto.py to goto.cpython-312.pyc
+[0.697s] byte-compiling /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control/land.py to land.cpython-312.pyc
+[0.698s] byte-compiling /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control/takeoff.py to takeoff.cpython-312.pyc
+[0.698s] running install_data
+[0.698s] running install_egg_info
+[0.712s] removing '/home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control-0.0.0-py3.12.egg-info' (and everything under it)
+[0.713s] Copying ../build/px4_control/px4_control.egg-info to /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control-0.0.0-py3.12.egg-info
+[0.713s] running install_scripts
+[0.787s] Installing goto script to /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/px4_control
+[0.787s] Installing land script to /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/px4_control
+[0.787s] Installing takeoff script to /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/px4_control
+[0.787s] writing list of installed files to '/home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/install.log'
+[0.809s] Invoked command in '/home/chenhuixu/PX4_ros2/ros2_ws/src/px4_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/px4_control build --build-base /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/build install --record /home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/install.log --single-version-externally-managed install_data

@@ -27,6 +27,7 @@ setup(
         'takeoff = px4_control.takeoff:main',
         'goto = px4_control.goto:main',
         'land = px4_control.land:main',
+        'go = px4_control.testgo:main'
     ],
 },
 )

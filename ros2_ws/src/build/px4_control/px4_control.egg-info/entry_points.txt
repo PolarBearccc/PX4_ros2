@@ -1,0 +1,5 @@
+[console_scripts]
+go = px4_control.testgo:main
+goto = px4_control.goto:main
+land = px4_control.land:main
+takeoff = px4_control.takeoff:main
