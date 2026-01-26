@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/px4_control/px4_control.egg-info/PKG-INFO
+writing dependency_links to ../build/px4_control/px4_control.egg-info/dependency_links.txt
+writing entry points to ../build/px4_control/px4_control.egg-info/entry_points.txt
+writing requirements to ../build/px4_control/px4_control.egg-info/requires.txt
+writing top-level names to ../build/px4_control/px4_control.egg-info/top_level.txt
+reading manifest file '../build/px4_control/px4_control.egg-info/SOURCES.txt'
+writing manifest file '../build/px4_control/px4_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/px4_control/px4_control.egg-info to /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/python3.12/site-packages/px4_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing go script to /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/px4_control
+Installing goto script to /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/px4_control
+Installing land script to /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/px4_control
+Installing takeoff script to /home/chenhuixu/PX4_ros2/ros2_ws/src/install/px4_control/lib/px4_control
+writing list of installed files to '/home/chenhuixu/PX4_ros2/ros2_ws/src/build/px4_control/install.log'

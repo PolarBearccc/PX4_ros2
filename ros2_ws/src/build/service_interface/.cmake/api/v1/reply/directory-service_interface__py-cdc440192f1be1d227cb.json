@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "service_interface__py",
+		"source" : "/home/chenhuixu/PX4_ros2/ros2_ws/src/build/service_interface/service_interface__py"
+	}
+}

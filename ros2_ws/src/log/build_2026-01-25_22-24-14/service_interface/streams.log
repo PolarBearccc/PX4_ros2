@@ -1,0 +1,25 @@
+[0.132s] Invoking command in '/home/chenhuixu/PX4_ros2/ros2_ws/src/build/service_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chenhuixu/PX4_ros2/ros2_ws/src/service_interface -DCMAKE_INSTALL_PREFIX=/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface
+[0.175s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.240s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.423s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.533s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.608s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.678s] [31mCMake Error at CMakeLists.txt:11 (rosidl_generator_interfaces):
+[0.678s]   Unknown CMake command "rosidl_generator_interfaces".
+[0.678s] 
+[0.678s] [0m
+[0.678s] -- Configuring incomplete, errors occurred!
+[0.683s] Invoked command in '/home/chenhuixu/PX4_ros2/ros2_ws/src/build/service_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chenhuixu/PX4_ros2/ros2_ws/src/service_interface -DCMAKE_INSTALL_PREFIX=/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface

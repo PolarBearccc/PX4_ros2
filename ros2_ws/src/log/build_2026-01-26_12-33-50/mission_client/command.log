@@ -1,0 +1,2 @@
+Invoking command in '/home/chenhuixu/PX4_ros2/ros2_ws/src/build/mission_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chenhuixu/PX4_ros2/ros2_ws/src/build/mission_client -- -j16 -l16
+Invoked command in '/home/chenhuixu/PX4_ros2/ros2_ws/src/build/mission_client' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chenhuixu/PX4_ros2/ros2_ws/src/build/mission_client -- -j16 -l16

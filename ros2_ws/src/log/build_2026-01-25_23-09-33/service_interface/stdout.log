@@ -1,0 +1,280 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/chenhuixu/PX4_ros2/ros2_ws/src/build/service_interface
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_service_interface
+running egg_info
+[  1%] Built target service_interface__rosidl_generator_type_description
+writing service_interface.egg-info/PKG-INFO
+writing dependency_links to service_interface.egg-info/dependency_links.txt
+writing top-level names to service_interface.egg-info/top_level.txt
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+reading manifest file 'service_interface.egg-info/SOURCES.txt'
+writing manifest file 'service_interface.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_service_interface_egg
+[  5%] Built target service_interface__cpp
+[ 20%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_c.dir/rosidl_generator_c/service_interface/srv/detail/takeoff__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_c.dir/rosidl_generator_c/service_interface/srv/detail/takeoff__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_c.dir/rosidl_generator_c/service_interface/srv/detail/takeoff__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_c.dir/rosidl_generator_c/service_interface/srv/detail/move__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_c.dir/rosidl_generator_c/service_interface/srv/detail/land__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_c.dir/rosidl_generator_c/service_interface/srv/detail/move__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_c.dir/rosidl_generator_c/service_interface/srv/detail/land__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_c.dir/rosidl_generator_c/service_interface/srv/detail/move__description.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_c.dir/rosidl_generator_c/service_interface/srv/detail/land__type_support.c.o[0m
+[ 24%] [32m[1mLinking C shared library libservice_interface__rosidl_generator_c.so[0m
+[ 24%] Built target service_interface__rosidl_generator_c
+[ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interface/srv/move__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interface/srv/land__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interface/srv/takeoff__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/service_interface/srv/move__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/service_interface/srv/land__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/service_interface/srv/takeoff__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libservice_interface__rosidl_typesupport_c.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/service_interface/srv/detail/move__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/service_interface/srv/detail/takeoff__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/service_interface/srv/detail/land__type_support.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/service_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_interface/srv/detail/takeoff__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/service_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_interface/srv/detail/move__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/service_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_interface/srv/detail/land__type_support.c.o[0m
+[ 59%] Built target service_interface__rosidl_typesupport_c
+[ 61%] [32m[1mLinking C shared library libservice_interface__rosidl_typesupport_introspection_c.so[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/service_interface/srv/detail/dds_fastrtps/move__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/service_interface/srv/detail/dds_fastrtps/takeoff__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/service_interface/srv/detail/dds_fastrtps/land__type_support.cpp.o[0m
+[ 66%] Built target service_interface__rosidl_typesupport_introspection_c
+[ 72%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/service_interface/srv/detail/land__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/service_interface/srv/detail/takeoff__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/service_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/service_interface/srv/detail/move__type_support_c.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libservice_interface__rosidl_typesupport_cpp.so[0m
+[ 75%] [32m[1mLinking CXX shared library libservice_interface__rosidl_typesupport_introspection_cpp.so[0m
+[ 75%] Built target service_interface__rosidl_typesupport_cpp
+[ 75%] Built target service_interface__rosidl_typesupport_introspection_cpp
+[ 77%] [32m[1mLinking CXX shared library libservice_interface__rosidl_typesupport_fastrtps_c.so[0m
+[ 79%] [32m[1mLinking CXX shared library libservice_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 79%] Built target service_interface__rosidl_typesupport_fastrtps_c
+[ 79%] Built target service_interface__rosidl_typesupport_fastrtps_cpp
+[ 79%] Built target service_interface
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target service_interface__py
+[ 85%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_py.dir/rosidl_generator_py/service_interface/srv/_takeoff_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_py.dir/rosidl_generator_py/service_interface/srv/_land_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/service_interface__rosidl_generator_py.dir/rosidl_generator_py/service_interface/srv/_move_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library libservice_interface__rosidl_generator_py.so[0m
+[ 88%] Built target service_interface__rosidl_generator_py
+[ 92%] [32mBuilding C object CMakeFiles/service_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/service_interface/_service_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/service_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/service_interface/_service_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/service_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/service_interface/_service_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/service_interface/service_interface_s__rosidl_typesupport_c.so[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/service_interface/service_interface_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/service_interface/service_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target service_interface_s__rosidl_typesupport_c
+[100%] Built target service_interface_s__rosidl_typesupport_introspection_c
+[100%] Built target service_interface_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/ament_index/resource_index/rosidl_interfaces/service_interface
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/srv/Move.json
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/srv/Takeoff.json
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/srv/Land.json
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__type_support.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__type_support.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__type_support.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__struct.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__struct.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__type_support.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__type_support.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__functions.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__description.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__functions.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__type_support.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__struct.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__functions.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__description.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__functions.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__description.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__functions.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__functions.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/takeoff.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/move.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/land.h
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/environment/library_path.sh
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/environment/library_path.dsv
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__type_support.c
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__type_support.c
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__type_support.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/move.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/land.hpp
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__builder.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__builder.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__builder.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__struct.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__type_support.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__type_support.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__traits.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__struct.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__traits.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__traits.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__struct.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__type_support.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/takeoff.hpp
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/dds_fastrtps
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__type_support.cpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/move__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__type_support.cpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__type_support.cpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/land__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/include/service_interface/service_interface/srv/detail/takeoff__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/environment/pythonpath.sh
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/environment/pythonpath.dsv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface-0.0.0-py3.12.egg-info
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/service_interface_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/_move_s.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/_move.py
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/_land.py
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/_land_s.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/_takeoff_s.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/__init__.py
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/_takeoff.py
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/_service_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/service_interface_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/__init__.py
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/_service_interface_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/service_interface_s__rosidl_typesupport_c.so
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/_service_interface_s.ep.rosidl_typesupport_c.c
+Listing '/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface'...
+Compiling '/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/__init__.py'...
+Listing '/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv'...
+Compiling '/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/__init__.py'...
+Compiling '/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/_land.py'...
+Compiling '/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/_move.py'...
+Compiling '/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/srv/_takeoff.py'...
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/service_interface_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/service_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/service_interface_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/service_interface_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/service_interface_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/python3.12/site-packages/service_interface/service_interface_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/lib/libservice_interface__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/srv/Move.idl
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/srv/Takeoff.idl
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/srv/Land.idl
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/srv/Move.srv
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/srv/Takeoff.srv
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/srv/Land.srv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/ament_index/resource_index/package_run_dependencies/service_interface
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/ament_index/resource_index/parent_prefix_path/service_interface
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/environment/path.sh
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/environment/path.dsv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/local_setup.bash
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/local_setup.sh
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/local_setup.zsh
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/local_setup.dsv
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/package.dsv
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/ament_index/resource_index/packages/service_interface
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/export_service_interface__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/export_service_interface__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/export_service_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/export_service_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interface__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/export_service_interface__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/export_service_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/export_service_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interface__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/export_service_interface__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/export_service_interface__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interfaceConfig.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/cmake/service_interfaceConfig-version.cmake
+-- Up-to-date: /home/chenhuixu/PX4_ros2/ros2_ws/src/install/service_interface/share/service_interface/package.xml
