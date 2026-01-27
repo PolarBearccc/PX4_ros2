@@ -1,3 +1,4 @@
+将src文件导入工作空间，修改.vscode中的json文件，把"includePath"中的"/home/xun/workspace/**",改成对应自己的用户名路径
 运行节点前先启动px4仿真
 ```
 make px4_sitl gz_x500
