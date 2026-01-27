@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "service_interface__py",
+		"source" : "/home/xun/workspace/PX4_ros2/ros2_ws/build/service_interface/service_interface__py"
+	}
+}

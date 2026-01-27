@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from service_interface/srv/Takeoff.srv
+// generated code does not contain a copyright notice
+
+
+module service_interface {
+  module srv {
+    struct Takeoff_Request {
+      float hight;
+    };
+    struct Takeoff_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/xun/workspace/PX4_ros2/ros2_ws/build/mission_client/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

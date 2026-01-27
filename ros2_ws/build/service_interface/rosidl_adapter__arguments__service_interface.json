@@ -1,0 +1,8 @@
+{
+  "package_name": "service_interface",
+  "non_idl_tuples": [
+    "/home/xun/workspace/PX4_ros2/ros2_ws/src/service_interface:srv/Takeoff.srv",
+    "/home/xun/workspace/PX4_ros2/ros2_ws/src/service_interface:srv/Land.srv",
+    "/home/xun/workspace/PX4_ros2/ros2_ws/src/service_interface:srv/Move.srv"
+  ]
+}

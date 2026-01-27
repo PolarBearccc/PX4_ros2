@@ -1,10 +1,8 @@
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/python3.10/site-packages/px4_control/__init__.py
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/python3.10/site-packages/px4_control/goto.py
-/home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/python3.10/site-packages/px4_control/takeoff.py
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/python3.10/site-packages/px4_control/land.py
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/python3.10/site-packages/px4_control/__pycache__/__init__.cpython-310.pyc
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/python3.10/site-packages/px4_control/__pycache__/goto.cpython-310.pyc
-/home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/python3.10/site-packages/px4_control/__pycache__/takeoff.cpython-310.pyc
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/python3.10/site-packages/px4_control/__pycache__/land.cpython-310.pyc
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/share/ament_index/resource_index/packages/px4_control
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/share/px4_control/package.xml
@@ -17,4 +15,3 @@
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/python3.10/site-packages/px4_control-0.0.0-py3.10.egg-info/requires.txt
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/px4_control/goto
 /home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/px4_control/land
-/home/xun/workspace/PX4_ros2/ros2_ws/install/px4_control/lib/px4_control/takeoff
