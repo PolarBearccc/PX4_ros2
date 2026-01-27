@@ -1,8 +1,0 @@
-[01m[K/home/chenhuixu/PX4_ros2/ros2_ws/src/mission_client/src/mission_client.cpp:[m[K In member function ‘[01m[Kvoid DroneControlClient::[01;32m[Kcall_land_service[m[K(const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’:
-[01m[K/home/chenhuixu/PX4_ros2/ros2_ws/src/mission_client/src/mission_client.cpp:56:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktokens[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   56 |         void call_land_service([01;35m[Kconst std::vector<std::string>& tokens[m[K){
-      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
-[01m[K/home/chenhuixu/PX4_ros2/ros2_ws/src/mission_client/src/mission_client.cpp:[m[K In member function ‘[01m[Kvoid DroneControlClient::[01;32m[Khandle_move_command[m[K(const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’:
-[01m[K/home/chenhuixu/PX4_ros2/ros2_ws/src/mission_client/src/mission_client.cpp:100:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kspeed[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
-  100 |             float [01;35m[Kspeed[m[K = 0.5f;     // 默认速度
-      |                   [01;35m[K^~~~~[m[K
