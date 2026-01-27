@@ -1,4 +1,6 @@
-将src文件导入工作空间，修改.vscode中的json文件，把"includePath"中的"/home/xun/workspace/**",改成对应自己的用户名路径
+如果要用vscode的话，可以把PX4_ros2作为工作区，把src目录的.vscode文件夹移动到对应根目录。按照下文描述修改文件
+如果将src文件导入工作空间，修改.vscode中的json文件，把"includePath"中的"/home/xun/workspace/**",改成对应自己的用户名路径
+理论上可以防止cpp的头文件路径找不到，这个问题不会影响build，可忽略。
 提交代码的时候只需要上传src文件夹，另外三个文件夹是ros2编译出来的史山，可以不用重复提交，仓库克隆下来先用colcon build构建一下
 运行节点前先启动px4仿真
 ```
