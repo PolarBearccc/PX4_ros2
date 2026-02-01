@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interface/srv/land__type_support.cpp.o"
-  "CMakeFiles/service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interface/srv/land__type_support.cpp.o.d"
   "CMakeFiles/service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interface/srv/move__type_support.cpp.o"
-  "CMakeFiles/service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interface/srv/move__type_support.cpp.o.d"
   "CMakeFiles/service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interface/srv/takeoff__type_support.cpp.o"
-  "CMakeFiles/service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_interface/srv/takeoff__type_support.cpp.o.d"
   "libservice_interface__rosidl_typesupport_c.pdb"
   "libservice_interface__rosidl_typesupport_c.so"
   "rosidl_typesupport_c/service_interface/srv/land__type_support.cpp"
