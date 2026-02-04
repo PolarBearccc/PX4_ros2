@@ -95,23 +95,24 @@ class GoToPoint(Node):
         # if dist < 0.3:
         #     self.get_logger().info("✅ Arrived at target point!")
         # self.get_logger().info(self.state.mode)
-        if not self.offboard_started and self.state.mode != "OFFBOARD":
+        if not self.offboard_started  != "OFFBOARD":
             # 尝试切换为 OFFBOARD 模式
             if self.set_mode_client.wait_for_service(timeout_sec=1.0):
                 mode_req = SetMode.Request()
                 mode_req.custom_mode = 'OFFBOARD'
                 self.set_mode_client.call_async(mode_req)
-                self.get_logger().info("Trying to set OFFBOARD mode...")
-
+                self.get_logger().info("尝试切换到 OFFBOARD 模式...")
+        if not self.state.armed:
             # 尝试解锁无人机
             if self.arming_client.wait_for_service(timeout_sec=1.0):
                 arm_req = CommandBool.Request()
                 arm_req.value = True
                 self.arming_client.call_async(arm_req)
-                self.get_logger().info("Trying to arm...")
-
+                self.get_logger().info("尝试解锁无人机...")
+        if self.state.mode == "OFFBOARD" and not self.offboard_started:
             # 标记已启动 OFFBOARD 模式
             self.offboard_started = True
+            self.get_logger().info("✅ OFFBOARD mode 切换成功!")
         
     def move_callback(self,request,response):
         # if request.speed:
@@ -125,7 +126,7 @@ class GoToPoint(Node):
         if request.distance:
             distance = request.distance
         else:
-            distance = request.distance
+            distance = None
 
         if  direction != None and distance != None:
             if direction == "forward":
