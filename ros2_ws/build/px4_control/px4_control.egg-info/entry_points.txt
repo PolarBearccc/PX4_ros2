@@ -1,4 +1,0 @@
-[console_scripts]
-goto = px4_control.goto:main
-land = px4_control.land:main
-
