@@ -3,7 +3,7 @@
 #include "service_interface/srv/land.hpp"
 #include "service_interface/srv/move.hpp"
 #include "service_interface/srv/takeoff.hpp"
-
+#include "service_interface/srv/stateset.hpp"
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -15,6 +15,7 @@ class DroneControlClient: public rclcpp::Node{
         rclcpp::Client<service_interface::srv::Move>::SharedPtr move_client_;
         rclcpp::Client<service_interface::srv::Land>::SharedPtr land_client_;
         rclcpp::Client<service_interface::srv::Takeoff>::SharedPtr takeoff_client_;
+        rclcpp::Client<service_interface::srv::Stateset>::SharedPtr state_client_;
         std::thread command_loop_thread_;
         
         bool wait_for_service(){
@@ -38,7 +39,13 @@ class DroneControlClient: public rclcpp::Node{
                     return false;
                 }
             }
-            RCLCPP_INFO(this->get_logger(),"takeoff服务上线");
+            while(!state_client_->wait_for_service(std::chrono::seconds(1))){
+                if(!rclcpp::ok()){
+                    RCLCPP_ERROR(this->get_logger(),"stateset服务被打断");
+                    return false;
+                }
+            }
+            RCLCPP_INFO(this->get_logger(),"stateset服务上线");
             return true;
         }
     public:
@@ -46,6 +53,7 @@ class DroneControlClient: public rclcpp::Node{
             move_client_ = this->create_client<service_interface::srv::Move>("/drone_move");
             land_client_ = this->create_client<service_interface::srv::Land>("/drone_land");
             takeoff_client_ = this->create_client<service_interface::srv::Takeoff>("/drone_takeoff");
+            state_client_ = this->create_client<service_interface::srv::Stateset>("/drone_state");
             auto ok = wait_for_service();
             if(!ok) RCLCPP_ERROR(this->get_logger(),"客户端启动失败");
             command_loop_thread_ = std::thread(&DroneControlClient::command_loop, this);
@@ -59,7 +67,13 @@ class DroneControlClient: public rclcpp::Node{
 
             std::cout << "降落命令已发送\n";
         }
-    
+        void call_state_service(const bool takeoff){
+            auto request = std::make_shared<service_interface::srv::Stateset::Request>();
+            request->takeoff = takeoff;
+
+            auto future = state_client_->async_send_request(request);
+            std::cout << "状态设置命令已发送\n";
+        }
         void call_move_service(const std::string& direction, float distance){
             auto request = std::make_shared<service_interface::srv::Move::Request>();
             request->direction = direction;
@@ -145,9 +159,11 @@ class DroneControlClient: public rclcpp::Node{
                 handle_move_command(tokens);
             }
             else if (action == "takeoff") {
+                call_state_service(true);
                 handle_takeoff_command(tokens);
             }
             else if (action == "land") {
+                call_state_service(false);
                 call_land_service();
             }
             else {

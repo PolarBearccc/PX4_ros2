@@ -12,6 +12,7 @@ rosidl_generate_interfaces( ${PROJECT_NAME}
   "srv/Takeoff.srv"
   "srv/Land.srv"
   "srv/Move.srv"
+  "srv/Stateset.srv"
 )
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

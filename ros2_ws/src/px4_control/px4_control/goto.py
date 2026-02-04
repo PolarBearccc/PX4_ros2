@@ -7,6 +7,7 @@ from geometry_msgs.msg import PoseStamped
 from mavros_msgs.srv import CommandBool, SetMode
 from service_interface.srv import Move
 from service_interface.srv import Takeoff
+from service_interface.srv import Stateset
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
 
 # string direction  # 方向：forward, backward, left, right
@@ -45,6 +46,7 @@ class GoToPoint(Node):
         self.pose_pub = self.create_publisher(PoseStamped, '/mavros/setpoint_position/local', setpoint_qos)
         self.create_service(Move,'/drone_move',self.move_callback)
         self.create_service(Takeoff,'/drone_takeoff',self.takeoff_callback)
+        self.create_service(Stateset,'/drone_state',self.state_callback)
         self.get_logger().info('服务创建成功')
         # --- 订阅无人机状态和当前位置 ---
         self.state_sub = self.create_subscription(State, '/mavros/state', self.state_cb, 10)
@@ -52,7 +54,7 @@ class GoToPoint(Node):
 
         # --- 定时器 ---
         # 每 0.1s 执行一次 timer_cb
-        self.timer = self.create_timer(0.1, self.timer_cb)
+        self.timer = self.create_timer(0.1, self.time_cb)
 
         self.get_logger().info("🧭 GoToPoint node initialized, waiting for PX4 connection...")
 
@@ -62,23 +64,22 @@ class GoToPoint(Node):
             self.target_pose.pose.position.z += request.hight
         else:
             self.target_pose.pose.position.z += 2.0
-        self.takeoff = True
         self.get_logger().info('成功接收起飞任务')
         return response 
-    
+    def state_callback(self,request,response):
+        self.takeoff = request.takeoff
+        return response
 
     def state_cb(self, msg):
         """状态回调函数，更新无人机状态"""
         self.state = msg
+    def time_cb(self):
 
-    def pose_cb(self, msg):
-        """位置回调函数，更新无人机当前位置"""
-        self.current_pose = msg
-
-    def timer_cb(self):
-        """定时器回调函数，发布目标位置并计算与目标的距离"""
         # 发布目标点
-        self.pose_pub.publish(self.target_pose)
+        # 发布目标点
+
+        if self.takeoff:
+            self.pose_pub.publish(self.target_pose)
 
         # 计算当前到目标点的欧氏距离
         dx = self.target_pose.pose.position.x - self.current_pose.pose.position.x
@@ -95,14 +96,15 @@ class GoToPoint(Node):
         # if dist < 0.3:
         #     self.get_logger().info("✅ Arrived at target point!")
         # self.get_logger().info(self.state.mode)
-        if not self.offboard_started  != "OFFBOARD":
+        self.get_logger().info(f"Takeoff flag: {self.takeoff}")
+        if self.offboard_started  != "OFFBOARD":
             # 尝试切换为 OFFBOARD 模式
             if self.set_mode_client.wait_for_service(timeout_sec=1.0):
                 mode_req = SetMode.Request()
                 mode_req.custom_mode = 'OFFBOARD'
                 self.set_mode_client.call_async(mode_req)
                 self.get_logger().info("尝试切换到 OFFBOARD 模式...")
-        if not self.state.armed:
+        if (not self.state.armed) and self.takeoff:
             # 尝试解锁无人机
             if self.arming_client.wait_for_service(timeout_sec=1.0):
                 arm_req = CommandBool.Request()
@@ -114,6 +116,9 @@ class GoToPoint(Node):
             self.offboard_started = True
             self.get_logger().info("✅ OFFBOARD mode 切换成功!")
         
+    def pose_cb(self, msg):
+        """位置回调函数，更新无人机当前位置"""
+        self.current_pose = msg
     def move_callback(self,request,response):
         # if request.speed:
         #     speed = request.speed
